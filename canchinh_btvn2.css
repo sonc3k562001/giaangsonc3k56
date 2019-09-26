@@ -1,0 +1,34 @@
+h1{
+    color:black;
+    font-size:50px;
+    font-aline:left;
+    font-family:helvetica;
+    
+}
+body{
+    font-align:left;
+    font-family: 'Indie Flower', cursive;
+}
+#box2/*tên id của tùng div*/{
+
+    width:800px;
+    foat:left;/*dồn khối*/
+    box-sizing: border-box;/* xây tường nằm vào bên trong khối,chia tỉ lệ*/
+
+    margin-left:auto;/*cách khối bên trái*/
+    margin-right: auto;/*cách khối bên trái*/
+
+    heigh:5000px;/*thường ko dùng cho các khối*/
+
+    /*border: 1px solid red;/*vùng viền và điều chỉnh màu của chúng, ngoài solid(nét liền) có dashed: nét đứt*/
+    border-left:1px solid blue ;/*xây tường bên trái ngoài ra còn có right , bottom, top, none(không cho xây nề)*/
+    padding: 20px;/*tạo khoảng cách của nội dung bên trong với đường viền,cũng chia làm bốn loại right, bottom,top,left
+    cách viết khác là padding:20px,10px,40px,30px thì tính theo chiều kim đồng hồ: top,right,bottom,life ,cái nào không
+    có lấy chỉ số của thằng đối diện*/
+    box-shadow: -5px 6px 7px black;/*tạo cái bóng của khối(độ px và màu) note: chỉ số dương âm liên quan đến độ xe dịch
+     của bóng*/
+    border-radius: 5px;/*cắt các góc để tạo đường cong, nếu muốn tạo một khối tròn thì sửa 5px thành 100%*/
+}
+#box3{
+    width: 200px;
+}
