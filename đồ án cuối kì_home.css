@@ -1,0 +1,147 @@
+
+/*phần header*/
+#span_header{
+    background:#d9bfbf;;
+    height: 40px
+}
+#span_header1{
+    text-align: center;
+    margin-top:3px;
+    color: white;
+}
+header{
+    background:white;
+    height: 200px;
+    width: 100%;
+}
+.menu1{
+    height: 100px;
+    display: inline-block;
+    position: relative;
+}
+.menu1_1{
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top:50px;
+}
+.menu1 ul{
+   list-style: none;
+}
+.menu1 ul li{
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.menu1 ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.logo{
+    float: left;
+
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.acc{
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.acc a{
+    margin-right: 20px;
+}
+.acc i{
+    font-size: 20px;
+    color: black;
+}
+#thanh_tim_kiem {
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    width: 95%;
+    background-color: whitesmoke;
+    margin-left: 10px;
+}
+/*phần artical*/
+article{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+#sale1{
+    height: 600px;
+    margin-top: 100px;
+}
+section{
+    height: auto;
+    width: 100%;
+}
+/*phần footer*/
+.footer_header{
+    float: left;
+}
+footer{
+    float: left;
+    background: black;
+    color: white;
+    height: 300px;
+}
+.footer_header ul{
+    text-decoration: none;
+    margin-top: 50px;
+}
+.footer_header li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.footer_header li a{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.footer_header img{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+/*phần này là phần các mục ở giữa*/
+.footer_menu{
+    margin-top: 50px;
+}
+.footer_menu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer_menu li{
+    margin-top: 10px;
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+.footer_menu ul{
+    text-decoration: none;
+    list-style: none;
+}
+/*phần này là của email*/
+
+#email_feedback{
+    background: black;
+    color: white;
+    border: 2px solid black;
+    width: 300px;
+}
+#box_email{
+  border-bottom: 2px solid whitesmoke;
+}
+#note_feedback{
+    margin-top: 20px;
+    color: white;
+}
