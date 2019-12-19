@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services-section{
+    /*background:          */
+    background-size: cover;
+    padding: 60px 0;
+    margin: auto;
+}
+
+h1{
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border{
+    width: 160px;
+    height: 2px;
+    background: lightpink;
+    margin: 40px auto;
+}
+
+.services-container{
+    margin: 0 auto;
+    padding: 10px 10px;
+    /*MAKE THE CONTENT IN THE CONTAINER FLEXIBLE WHEN MINIMIZE THE WEB*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.services-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+}
+
+.services-desc{
+    line-height: 20px;
+    font-size: 16px;
+    color: black;
+}
+.services-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid lightpink;
+    color: lightpink;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.services-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+.services-box:hover .services-icon{
+    /*HAPPENED WHEN HOVER OVER AN ICON*/
+    background: lightpink;
+    color: #ddd;
+}
+
+.services-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.services-desc{
+    font-size: 14px;
+}
+
+/*RESPONSIVE WEB - CHANGE HOW WEB LOOK WHEN MINIMIZE THE WEB WINDOW*/
+@media screen and (max-width: 960px) {
+    .services-box{
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-box{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services-box{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
